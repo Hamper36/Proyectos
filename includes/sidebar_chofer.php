@@ -1,4 +1,5 @@
-<div class="col-md-2 text-white vh-100 p-3" style="background:#1E2E4F;">
+<div class="col-md-2 text-white min-vh-100 p-3" style="background:#1E2E4F;">
+
 
     <div class="text-center mb-4">
 
@@ -36,7 +37,8 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="mis_traslados.php">
+
 
                 <i class="bi bi-taxi-front-fill"></i>
 
@@ -48,7 +50,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="historial_viajes.php">
 
                 <i class="bi bi-clock-history"></i>
 
@@ -60,7 +62,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="mis_pagos.php">
 
                 <i class="bi bi-cash-stack"></i>
 
@@ -70,9 +72,28 @@
 
         </li>
 
+
+<li class="nav-item mb-2">
+
+    <a class="nav-link text-white" href="mis_vehiculos.php">
+
+        <i class="bi bi-car-front-fill"></i>
+
+        Mis vehículos
+
+    </a>
+
+</li>
+
+
+
+
+
+
+
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="mi_perfil.php">
 
                 <i class="bi bi-person-fill"></i>
 
@@ -81,6 +102,14 @@
             </a>
 
         </li>
+
+
+
+
+
+
+
+
 
     </ul>
 
@@ -95,3 +124,5 @@
     </a>
 
 </div>
+
+           

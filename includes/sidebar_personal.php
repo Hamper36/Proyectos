@@ -1,4 +1,4 @@
-<div class="col-md-2 sidebar vh-100 p-3">
+<div class="col-md-2 sidebar min-vh-100 p-3">
 
     <div class="text-center mb-4">
 
@@ -40,7 +40,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="../personal/evaluaciones.php">
 
                 <i class="bi bi-clipboard2-pulse-fill"></i>
 
@@ -52,7 +52,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="../personal/revisiones.php">
 
                 <i class="bi bi-car-front-fill"></i>
 
@@ -64,7 +64,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="../personal/pagos.php">
 
                 <i class="bi bi-cash-stack"></i>
 

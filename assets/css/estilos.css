@@ -179,3 +179,422 @@ body{
     transform:scale(1.08);
 
 }
+
+/* ===========================
+   LOGIN
+=========================== */
+
+.login-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-card{
+
+    width:430px;
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0px 10px 30px rgba(0,0,0,.15);
+
+    background:#fff;
+
+}
+
+.login-logo{
+
+    width:180px;
+
+    transition:.4s;
+
+    filter:drop-shadow(0px 6px 12px rgba(0,0,0,.15));
+
+}
+
+.login-logo:hover{
+
+    transform:scale(1.05);
+
+}
+
+.login-title{
+
+    font-weight:bold;
+
+    color:#1E2E4F;
+
+}
+
+.login-text{
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+.input-group-text{
+
+    background:#1E2E4F;
+
+    color:white;
+
+    border:none;
+
+}
+
+.form-control{
+
+    border-radius:0 8px 8px 0;
+
+}
+
+.btn-login{
+
+    background:#1E2E4F;
+
+    color:white;
+
+    font-weight:bold;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.btn-login:hover{
+
+    background:#31456d;
+
+    color:white;
+
+}
+
+.register-link{
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    color:#1E2E4F;
+
+}
+
+.register-link:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ===========================
+   WIZARD REGISTRO CHOFER
+=========================== */
+
+
+.wizard{
+
+    width:100%;
+
+}
+
+
+
+/* Barra de progreso */
+
+.wizard-progress{
+
+    height:8px;
+
+    background:#e0e0e0;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.wizard-progress-bar{
+
+    height:100%;
+
+    width:0%;
+
+    background:#1E2E4F;
+
+    transition:.4s;
+
+}
+
+
+
+
+
+/* Contenedor pasos */
+
+.wizard-steps{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+
+
+/* Cada paso */
+
+.wizard-step{
+
+    text-align:center;
+
+    flex:1;
+
+    position:relative;
+
+    color:#555;
+
+    font-weight:600;
+
+}
+
+
+
+
+
+/* Círculo */
+
+.wizard-circle{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    background:#ddd;
+
+    color:#555;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+
+
+
+
+/* Paso activo */
+
+.wizard-step.active{
+
+    color:#1E2E4F;
+
+}
+
+
+
+
+
+.wizard-step.active .wizard-circle{
+
+    background:#1E2E4F;
+
+    color:white;
+
+}
+
+
+
+
+
+/* Paso completado */
+
+.wizard-step.completed{
+
+    color:#198754;
+
+}
+
+
+
+
+
+.wizard-step.completed .wizard-circle{
+
+    background:#198754;
+
+    color:white;
+
+}
+
+
+
+
+
+/* Ocultar páginas */
+
+.wizard-page.d-none{
+
+    display:none;
+
+}
+
+
+
+
+
+/* Tarjetas dentro del registro */
+
+.wizard-page .card{
+
+    border-radius:15px;
+
+}
+
+
+
+
+
+/* Botones */
+
+.wizard-page .btn{
+
+    border-radius:10px;
+
+}
+
+/* ===========================
+   ENCABEZADOS TARJETAS WIZARD
+=========================== */
+
+.wizard-page .card-header.bg-primary{
+
+    background:#1E2E4F !important;
+
+}
+
+
+.wizard-page .card-header h5{
+
+    font-weight:700;
+
+    color:white;
+
+}
+
+/* ===========================
+   MÓDULOS DEL SISTEMA
+=========================== */
+
+.modulo-header{
+
+    text-align:center;
+
+    margin-top:15px;
+
+    margin-bottom:35px;
+
+}
+
+.modulo-header h2{
+
+    color:#1E2E4F;
+
+    font-weight:bold;
+
+    margin-bottom:10px;
+
+}
+
+.modulo-header p{
+
+    color:#666;
+
+    font-size:17px;
+
+    margin-bottom:0;
+
+}
+
+.card-form{
+
+    border-left:6px solid #ffc107;
+
+}
+
+.card-info{
+
+    border-left:6px solid #0d6efd;
+
+}
+
+.card-money{
+
+    border-left:6px solid #198754;
+
+}
+
+.btn-decarrerita{
+
+    background:#1E2E4F;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    padding:10px 25px;
+
+    transition:.3s;
+
+}
+
+.btn-decarrerita:hover{
+
+    background:#31456d;
+
+    color:white;
+
+}
+
+/* ===========================
+   FORZAR SCROLL EN MODALES
+=========================== */
+
+.modal-dialog-scrollable .modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}

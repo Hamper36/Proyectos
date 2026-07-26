@@ -1,4 +1,4 @@
-<div class="col-md-2 sidebar vh-100 p-3">
+<div class="col-md-2 sidebar min-vh-100 p-3">
 
     <div class="text-center mb-4">
 
@@ -27,7 +27,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white active" href="#">
+            <a class="nav-link text-white active" href="menu.php">
 
                 <i class="bi bi-speedometer2"></i>
 
@@ -40,7 +40,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="usuarios.php">
 
                 <i class="bi bi-people-fill"></i>
 
@@ -53,7 +53,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="vehiculos.php">
 
                 <i class="bi bi-car-front-fill"></i>
 
@@ -66,7 +66,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="traslados.php">
 
                 <i class="bi bi-taxi-front-fill"></i>
 
@@ -79,7 +79,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="pagos.php">
 
                 <i class="bi bi-cash-stack"></i>
 
@@ -92,7 +92,7 @@
 
         <li class="nav-item mb-2">
 
-            <a class="nav-link text-white" href="#">
+            <a class="nav-link text-white" href="reportes.php">
 
                 <i class="bi bi-graph-up"></i>
 
@@ -103,17 +103,10 @@
         </li>
 
 
-        <li class="nav-item mb-2">
+        
 
-            <a class="nav-link text-white" href="#">
 
-                <i class="bi bi-gear-fill"></i>
 
-                Configuración
-
-            </a>
-
-        </li>
 
 
     </ul>
