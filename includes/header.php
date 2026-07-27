@@ -17,11 +17,11 @@ $base_path = str_repeat('../', $depth);
 
     <title>Decarrerita</title>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Local -->
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/bootstrap.min.css">
 
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons Local -->
+    <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/bootstrap-icons.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="<?php echo $base_path; ?>assets/css/estilos.css">

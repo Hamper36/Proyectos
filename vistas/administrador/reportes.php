@@ -362,8 +362,8 @@ include("../../includes/header.php");
     </div>
 </div>
 
-<!-- Chart.js CDN -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Chart.js Local -->
+<script src="<?php echo $base_path; ?>assets/js/chart.js"></script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
